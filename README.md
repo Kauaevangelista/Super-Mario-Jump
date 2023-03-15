@@ -6,7 +6,7 @@
 
 Projeto construido por mim
 
-[Clique aqui para acessar](https://kauaevangelista.github.io/Projeto-Super-Mario-Jump/)
+[Clique aqui para acessar](https://spectacular-tulumba-ff58eb.netlify.app/)
 
 ## 🛠️Tecnologias
 
