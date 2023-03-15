@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="shortcut icon" href="./images/mario.gif" type="image/x-icon" />
+    <title>Mario Jump</title>
+  </head>
+  <body>
+    <div class="game-board">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/1/10/Super_Mario_World_game_logo.svg"
+        alt="Super_Mario_World_game_logo"
+        class="logoSuperMario"
+      />
+      <img src="./images/clouds.png" alt="clouds" class="clouds" />
+      <img src="./images/mario.gif" alt="Mario" class="mario" />
+      <img src="./images/pipe.png" alt="Pipe" class="pipe" />
+      <button class="start" onclick="startGame()">Iniciar a corrida</button>
+      <h1 class="score"></h1>
+      <div class="time"></div>
+    </div>
+
+    <div class="game-over">
+      <h1>Game Over :(</h1>
+      <button class="btnGameOver" onclick="restartGame()">Reiniciar</button>
+      <h2 class="showFinalScore"></h2>
+      <h3 class="record"></h3>
+    </div>
+    <script src="./index.min.js"></script>
+  </body>
+</html>

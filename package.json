@@ -1,0 +1,29 @@
+{
+  "name": "projeto-super-mario-jump",
+  "version": "1.0.0",
+  "description": "![preview](./.github/Preview.png)",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kauaevangelista/Projeto-Super-Mario-Jump.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kauaevangelista/Projeto-Super-Mario-Jump/issues"
+  },
+  "homepage": "https://github.com/Kauaevangelista/Projeto-Super-Mario-Jump#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.76.1",
+    "webpack-cli": "^5.0.1"
+  }
+}
