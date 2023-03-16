@@ -6,7 +6,7 @@
 
 Projeto construido por mim
 
-[Clique aqui para acessar](https://spectacular-tulumba-ff58eb.netlify.app/)
+[Clique aqui para acessar](https://super-mario-jumping.netlify.app/)
 
 ## 🛠️Tecnologias
 
