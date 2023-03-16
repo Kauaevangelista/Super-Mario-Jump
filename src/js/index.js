@@ -128,12 +128,32 @@ const loop = () => {
         }
       }, 100);
     }
-    if (score >= 40 && pipePosition < -20) {
+    if (score >= 40 && pipePosition < -20 && score < 50) {
       pipe.classList.remove("pipe-animationLv5");
       lv = true;
       setTimeout(() => {
         if (lv) {
           pipe.classList.add("pipe-animationLv6");
+          lv = false;
+        }
+      }, 100);
+    }
+    if (score >= 50 && pipePosition < -20 && score < 60) {
+      pipe.classList.remove("pipe-animationLv6");
+      lv = true;
+      setTimeout(() => {
+        if (lv) {
+          pipe.classList.add("pipe-animationLv7");
+          lv = false;
+        }
+      }, 100);
+    }
+    if (score >= 60 && pipePosition < -20) {
+      pipe.classList.remove("pipe-animationLv7");
+      lv = true;
+      setTimeout(() => {
+        if (lv) {
+          pipe.classList.add("pipe-animationLv8");
           lv = false;
         }
       }, 100);
@@ -152,8 +172,12 @@ const loop = () => {
         pipe.classList.remove("pipe-animationLv4");
       } else if (score >= 30 && score < 40) {
         pipe.classList.remove("pipe-animationLv5");
-      } else if (score >= 40) {
+      } else if (score >= 40 && score < 50) {
         pipe.classList.remove("pipe-animationLv6");
+      } else if (score >= 50 && score < 60) {
+        pipe.classList.remove("pipe-animationLv7");
+      } else if (score >= 60) {
+        pipe.classList.remove("pipe-animationLv8");
       }
 
       pipe.style.left = `${pipePosition}px`;
